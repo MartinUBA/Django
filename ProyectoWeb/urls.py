@@ -24,5 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 #Enlazo con la urls del proyecto
     path('',include('ProyectoWebApp.urls')),
+    path('servicios/', include('servicios.urls')),
+    
     
 ]
