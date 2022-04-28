@@ -1,6 +1,6 @@
 body {
   font-family: 'Montserrat';
-  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/Fondo.jpg");
+  background: linear-gradient(rgb(0 8 66 / 88%), #f8f9fa), url(../img/Fondo.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -81,11 +81,13 @@ p {
 
 #mainNav {
   background-color: rgb(25, 120, 197);
-  font-family: 'Raleway';
+  font-family: 'Montserrat';
+
 }
 
 #mainNav .navbar-brand {
   color: #0b79e0;
+  
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -104,7 +106,7 @@ p {
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #ffffff;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: rgba(157, 194, 236, 0);
 
   
@@ -112,7 +114,7 @@ p {
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
     color: #2592f8;
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
@@ -141,6 +143,7 @@ p {
     background-color: rgb(11, 60, 165);
     color: cornsilk;
     position: absolute;
+    border: black solid 1px
   }
   .intro .intro-text .intro-button {
     width: 100%;
@@ -276,10 +279,76 @@ a.link:hover{
   line-height: 28px !important;
 }
 
+.linksCategorias{
+
+  color: white !important;
+  
+  text-decoration: underline;
+  
+  }
+
 ul.errorlist{
   padding-top: .75rem;
   font-style: italic;
   color: red;
+}
+
+.linksCategorias:hover{
+
+  text-decoration:none
+}
+
+
+#map {
+
+  width: 100%;
+  height: 600px;
+}
+
+.map-coordinate {
+  position:absolute;
+  bottom:0;
+  left:50%;
+  transform: translateX(-50%);
+  padding: 8px;
+  background-color: #0b79e0;
+  border: 1px solid black;
+  border-radius: 2%;
+  color: #ffffff;
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.623));
+}
+
+.full-screen {
+  padding: 5px;
+  background-color: #ffffff;
+  position:absolute;
+  right:10.5px;
+  top:215px;
+  border: 2px solid  rgb(136 168 178);
+  border-radius: 3px;
+}
+
+.zoom-to-layer {
+  padding: 5px;
+  background-color: #ffffff;
+  position:absolute;
+  right:10.5px;
+  top:255px;
+  border:2px solid  rgb(136 168 178);
+  border-radius: 3px;
+}
+
+.navbar-logo {
+
+  height: 70px;
+  width: 170px;
+  position:relative;
+  right: 43px;
+  border: 1px solid black;
+  border-radius: 5px;
+  filter: drop-shadow(2px 2px 5px rgba(3, 126, 241, 0.493));
+
+  
 }
 
 

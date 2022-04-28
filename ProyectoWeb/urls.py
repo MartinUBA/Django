@@ -25,6 +25,6 @@ urlpatterns = [
 #Enlazo con la urls del proyecto
     path('',include('ProyectoWebApp.urls')),
     path('servicios/', include('servicios.urls')),
-    
+    path('blog/', include('blog.urls')),
     
 ]
