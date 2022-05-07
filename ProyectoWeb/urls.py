@@ -28,4 +28,5 @@ urlpatterns = [
     path('blog/', include('blog.urls')),
     path('index/',include ('shp.urls')),
     
+    
 ]

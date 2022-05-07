@@ -133,8 +133,8 @@ p {
 
 @media (min-width: 992px) {
   .intro .intro-img {
-    width: 75%;
-    float: left;
+    width: 100%;
+    
   }
   .intro .intro-text {
     left: 600;
@@ -341,9 +341,9 @@ ul.errorlist{
 .navbar-logo {
 
   height: 70px;
-  width: 70px;
+  width: 60px;
   position:relative;
-  right: 43px;
+  right: 90px;
   
   
   filter: drop-shadow(2px 2px 5px rgba(3, 126, 241, 0.493));
@@ -362,6 +362,7 @@ a:hover {
   color: #ffe591;
   text-decoration: none;
 }
+
 
  /* HOVER BOTONERA*/
 
