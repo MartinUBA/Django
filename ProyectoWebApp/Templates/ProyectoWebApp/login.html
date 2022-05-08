@@ -1,0 +1,35 @@
+{% extends "ProyectoWebApp/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Login</title>
+</head>
+<div align="center">
+<body style="align-content: center; color: aliceblue;">
+    <br>
+    <form action="" method="POST" >
+        {% csrf_token %}
+            {{ form.as_p }}
+
+        <button type="submit" style="margin-left: 38px;">Inciar sesion</button>
+
+    </form>
+    <p >No tienes todavía una cuenta ? <a href="{% url 'Register' %}">Registrate ! </a> </p>
+    <br>
+    <br>
+    <br>
+</body>
+</div>
+</html>
+{% endblock %}
