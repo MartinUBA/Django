@@ -1,7 +1,10 @@
  //map class initialize
  var map = L.map('map').setView([ -34.6131, -58.3772], 5);
  map.zoomControl.setPosition('topright');
-      
+
+ 
+
+
  //adding osm tileserver
  var osm= L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -85,5 +88,4 @@
  }
 
  L.control.layers(baseMaps,overlayMaps, {collapsed: false, position:'topleft'}).addTo(map);
-
 

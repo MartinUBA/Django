@@ -62,7 +62,7 @@ p {
 
 .section-heading .section-heading-lower {
   display: block;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 100;
 }
 
@@ -139,7 +139,7 @@ p {
   .intro .intro-text {
     left: 600;
     width: 60%;
-    margin-top: 3rem;
+    margin-top: -8rem;
     background-color: rgb(11, 60, 165);
     color: cornsilk;
     position: absolute;
@@ -376,6 +376,15 @@ color: #f8f9fa;
   max-width: 10%;
 }
 
+.box-map {
+  width: 175px;
+  height: 175px;
+  border: 1px solid black;
+  border-radius: 10px;
+  filter: drop-shadow(3px 3px 6px black);
+  align-items: inherit;
+  background-color: beige;
+}
 
  /* HOVER BOTONERA*/
 
